@@ -1,5 +1,4 @@
 import sys
-import random
 import PySide6.QtCore as core
 import PySide6.QtWidgets as widgets
 import PySide6.QtGui as gui
