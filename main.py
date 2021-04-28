@@ -17,7 +17,7 @@ class App(widgets.QWidget):
         self.layout.addWidget(self.button)
         self.setLayout(self.layout)
         self.button.clicked.connect(self.magic)
-        self.api_url = 'http://www.lennartberning.de/api/moods?'
+        self.api_url = 'http://www.lennartberning.de/aiplayground/api/moods?'
 
     def createTable(self, data):
         #Not proud about the following, but it serves the purpose...
